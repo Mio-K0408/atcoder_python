@@ -1,0 +1,6 @@
+n = int(input())
+input_list = list(map(int, input().split()))
+total = sum(input_list)
+input_min = min(input_list)
+input_max = max(input_list)
+print("{} {} {}".format(input_min,input_max,total))
